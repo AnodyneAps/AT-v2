@@ -186,43 +186,40 @@
   
     {{ "fancybox.min.css" | asset_url | stylesheet_tag }}  
 
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FZFPWTXDWN"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-FZFPWTXDWN');
-  </script>
+<!-- Start of Tidio script -->
+<script src="//code.tidio.co/y4ggm28hqjtwd5phf0n7jozlnnlz0dl3.js" async></script>
+<!-- End of Tidio script -->
+    
+<!-- Start of Sleeknote signup and lead generation tool - www.sleeknote.com -->
+<script id="sleeknoteScript" type="text/javascript">
+	(function () {
+		var sleeknoteScriptTag = document.createElement("script");
+		sleeknoteScriptTag.type = "text/javascript";
+		sleeknoteScriptTag.charset = "utf-8";
+		sleeknoteScriptTag.src = ("//sleeknotecustomerscripts.sleeknote.com/8999.js");
+		var s = document.getElementById("sleeknoteScript"); 
+		s.parentNode.insertBefore(sleeknoteScriptTag, s); 
+	})();
+</script>
+<!-- End of Sleeknote signup and lead generation tool - www.sleeknote.com -->
 
-  <!-- Start of TIDIO script !-->
-  <script src="//code.tidio.co/lshxvbf7zbpxfdntolmjiikgc1kvutyf.js" async></script> 
-  <!-- End of TIDIO script !-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1LMEYD3K4N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  <!-- Start of Sleeknote signup and lead generation tool - www.sleeknote.com -->
-  <script id="sleeknoteScript" type="text/javascript">
-    (function () {
-      var sleeknoteScriptTag = document.createElement("script");
-      sleeknoteScriptTag.type = "text/javascript";
-      sleeknoteScriptTag.charset = "utf-8";
-      sleeknoteScriptTag.src = ("//sleeknotecustomerscripts.sleeknote.com/8999.js");
-      var s = document.getElementById("sleeknoteScript"); 
-      s.parentNode.insertBefore(sleeknoteScriptTag, s); 
-    })();
-  </script>
-  <!-- End of Sleeknote signup and lead generation tool - www.sleeknote.com -->
-  <!-- magic scrips start  -->
-  {% assign scriptNumbers = "Y4Mp9B, naRrbY, x7MvKY, Y3rkln, n1aL5n, B6w5mx, xN2rPx, xyqbbx" | split: ", "%}
-  {% for scriptNum in scriptNumbers %}
-  <script type="text/javascript" async src="//s.retargeted.co/1/{{scriptNum }}.js"></script>
-  {% endfor %}
-  <!-- magic scrips end  -->
+  gtag('config', 'G-1LMEYD3K4N');
+</script>
 
-  <!-- onskeskyen-wish-button link start  -->
-   <script src='https://tag.heylink.com/a0b98809-b311-42c0-bd60-4be624b02060/script.js' defer></script>
-      <script type="application/javascript" src="https://xn--nskeskyen-k8a.dk/onskeskyen-wish-button/external-wish-button.js" id="ov-onskeskyen-generate-wish-button-script" defer></script>
-      <link rel="stylesheet" href="https://oenskeinspiration.dk/knap/css/onskeskyen_wish_button.min.css">
-    <!-- onskeskyen-wish-button link end  -->
+<!-- magic scrips start  -->
+{% assign scriptNumbers = "Y4Mp9B, naRrbY, x7MvKY, Y3rkln, n1aL5n, B6w5mx, xN2rPx, xyqbbx" | split: ", "%}
+{% for scriptNum in scriptNumbers %}
+<script type="text/javascript" async src="//s.retargeted.co/1/{{scriptNum }}.js"></script>
+{% endfor %}
+<!-- magic scrips end  -->
+{% render 'vitals-loader' %}
 </head>
   <body id="{{ page_title | handle }}"
         class="{% if settings.sticky_header %}sticky-header{% endif %}

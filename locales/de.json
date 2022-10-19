@@ -499,7 +499,8 @@
   },
   "products": {
     "general": {
-      "save_html": "{{ saved_amount }} speichern",
+      "save_html": "Speichern",
+      "saved_amount_nums": "{{ saved_amount }}",
       "collection_return": "Zurück zu {{ collection }}",
       "sale_price": "Verkaufspreis",
       "regular_price": "Regulärer Preis",
@@ -527,6 +528,27 @@
       "next": "Weiter (Pfeiltaste rechts)",
       "prev": "Zurück (Linke Pfeiltaste)",
       "close": "Schließen (Esc)"
+    },
+  "tabs": {
+    "tab-description": " Beschreibung ",
+    "tab-medical": " Technologie ",
+    "tab-use": " Anwendung ",
+    "tab-manual": " Gebrauchsanweisung ",
+    "tab-material": " Materialen ",
+    "tab-delivery": "  Versand und Retoure "
+  },
+  "radios": {
+    "radio-one": "",
+    "radio-save-amount": "Sie sparen "
+  },
+  "sizes": {
+    "choose-size-message": "Bitte wählen Sie Ihre Größe"
+  },
+  "counter": {
+      "days": "Tage",
+      "hours": "Stunden",
+      "minutes": "Minuten",
+      "seconds": "Sekunden"
     }
   },
   "gift_cards": {
