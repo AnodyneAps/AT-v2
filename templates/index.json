@@ -9,17 +9,44 @@
         "show_overlay": true,
         "image": "shopify:\/\/shop_images\/Skaermbillede_2021-11-18_kl._14.03.24.png",
         "image_position": "center center",
-        "video_title": "Velkommen",
+        "video_title": "<span class=\"first\">Anodyne®<\/span>",
         "text_size": "medium",
-        "text_description": "<p>Få en bedre holdning med produkter fra Anodyne® - Vi har flere end 100.000 glade danske kunder<\/p>",
+        "text_description": "<p><strong>Verbessere jetzt die Haltung und lindere Verspannungen<\/strong><\/p>",
         "text_description_size": "medium",
-        "button_label": "Mænd",
-        "button_link": "shopify:\/\/collections\/maend",
-        "second_button_label": "Kvinder",
-        "second_button_link": "shopify:\/\/collections\/kvinder",
+        "button_label": "Männer",
+        "button_link": "shopify:\/\/collections\/manner",
+        "second_button_label": "Frauen",
+        "second_button_link": "shopify:\/\/collections\/frauen",
         "show_scrolldown": true,
-        "show_emark": true,
-        "bottom_counter_text": "Vi sender din ordre om:",
+        "show_emark": false,
+        "bottom_counter_text": "Wir versenden Ihr Paket in:",
+        "show_bottom_counter": true
+      }
+    },
+    "26b60e6d-b80c-4cac-9186-bc32afaf5241": {
+      "type": "hero-blackdays",
+      "disabled": true,
+      "settings": {
+        "style__selector": "black",
+        "page_width": "full_width",
+        "height": "medium",
+        "newvideo_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0596\/7842\/5237\/files\/Cover.mp4?v=1637326801",
+        "show_overlay": true,
+        "image": "shopify:\/\/shop_images\/Skaermbillede_2021-11-18_kl._14.03.24.png",
+        "image_position": "center center",
+        "video_title": "How To Add A Video Background On Shopify",
+        "svg_selector": "blackdays",
+        "text_size": "medium",
+        "text_description": "<p>Brug denne tekst til XXX at dele oplysninger om dit brand med dine.<\/p>",
+        "text_description_size": "medium",
+        "button_label": "",
+        "button_link": "",
+        "second_button_label": "",
+        "second_button_link": "",
+        "show_scrolldown": false,
+        "show_emark": false,
+        "bottom_counter_text": "We send your order in",
+        "date__selector": "none",
         "show_bottom_counter": true
       }
     },
@@ -50,7 +77,7 @@
             "title": "30 Tage Rückgaberecht",
             "description": "Testen Sie unsere Produkte in aller Ruhe während 30 Tagen",
             "icon": "shopify:\/\/shop_images\/Smile2.png",
-            "uspLinkUrl": "https:\/\/www.anodyne.at\/pages\/faq"
+            "uspLinkUrl": "shopify:\/\/pages\/retourportal"
           }
         },
         "bd4294cd-ff2b-4e34-9b3f-83b23dd32f70": {
@@ -133,17 +160,17 @@
             "code": "<p>Mit <a href=\"https:\/\/www.anodyne.at\/\"><span style=\"text-decoration:underline\">haltungskorrigierender Kleidung<\/span><\/a> von Anodyne® können Sie auf einfache und unbeschwerte Weise eine bessere Körperhaltung bekommen, sowie Schmerzen und Verspannungen im Nacken, Schultern und Rücken reduzieren. Anodyne® haltungskorrigierende Kleidung hilft Ihnen Ihr Körperbewusstsein zu verbessern und kann sowohl sitzend im Büro oder aktiver auf der Arbeit, auf Reisen oder zum Training verwendet werden. Anodyne® ist ein europäischer Produzent und Händler von das <a href=\"https:\/\/www.anodyne.at\/collections\/posture-shirt\"><span style=\"text-decoration:underline\">Posture Shirt<\/span><\/a>. Die Technologie wurde entwickelt vom us-amerikanischen Hersteller AlignMed - der einzige Produzent haltungskorrigierender Kleidung, die bei USA´s FDA (Behörde für u.a. Medizinalprodukte), registriert ist. Anodyne® haltungskorrigierende Kleidung ist die einzige Kleidung, die sowohl FDA-registriert und in Europa als medizinisches Hilfsmittel (Klasse 1) MDR\/CE-registriert ist. Dies ist Ihre Garantie dafür, dass Anodyne´s Produkte die Vorschriften für medizinische Hilfsmittel erfüllen. Wir bieten ebenfalls verschiedene <a href=\"https:\/\/www.anodyne.at\/collections\/ruckenstutze\"><span style=\"text-decoration:underline\">Produkte zur Rückenstütze<\/span><\/a>, unter anderem Geradehalter, Lendengurt, ergonomische Sitzkissen und viele weitere. Alle Produkte teilen die Eigenschaften, dass Sie die Körperhaltung verbessern und Schmerzen sowie Verspannungen im Alltag lindern.<\/p>",
             "text_alignment": "text-center",
             "status1_number": "+100.000",
-            "status1_label": "Glade danske kunder",
-            "status1_link": "shopify:\/\/collections\/all",
+            "status1_label": "Zufriedene Kunden",
+            "status1_link": "shopify:\/\/collections\/alle-produkte",
             "status2_number": "+500.000",
-            "status2_label": "Solgte produkter verden over",
-            "status2_link": "shopify:\/\/collections\/all",
+            "status2_label": "Weltweit verkaufte Produkte",
+            "status2_link": "shopify:\/\/collections\/alle-produkte",
             "status3_number": "+8",
-            "status3_label": "Års erfaring",
-            "status3_link": "shopify:\/\/collections\/all",
+            "status3_label": "Jahre Erfahrung",
+            "status3_link": "shopify:\/\/collections\/alle-produkte",
             "status4_number": "+80",
-            "status4_label": "Tilgængelige produkter",
-            "status4_link": "shopify:\/\/collections\/all",
+            "status4_label": "Produkte verfügbar",
+            "status4_link": "shopify:\/\/collections\/alle-produkte",
             "vendor_image_position": "center center",
             "vendor_text": ""
           }
@@ -232,7 +259,7 @@
         "title": "Beliebte Produkte",
         "subtitle": "",
         "section_style": "section-blank",
-        "home_featured_products": "restposten",
+        "home_featured_products": "bestseller",
         "rows": "2",
         "desktop_grid": "4",
         "mobile_grid": "2",
@@ -255,7 +282,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Checkmark.png",
             "title": "Die originale haltungskorrigierende Kleidung",
-            "text": "<p>Die originale Anodyne® haltungskorrigierende Kleidung kann nur auf <a href=\"https:\/\/www.anodyne-shop.de\/\" title=\"anodyne haltungskorrigierende Kleidung\">www.anodyne.at<\/a> erworben werden. Achten Sie darauf, dass es leider viele minderwertige Fälschungen auf dem Markt gibt. Nur ein einziges haltungskorrigierendes Produkt ist sowohl FDA-registriert und als medizinisches Hilfsmittel MDR\/CE-registriert: Anodyne®.<br\/>Seien Sie beim online Shoppen also achtsam auf Fälschungen.<\/p>"
+            "text": "<p>Die originale Anodyne® haltungskorrigierende Kleidung kann nur auf <a href=\"https:\/\/www.anodyne-shop.de\/\" title=\"anodyne haltungskorrigierende Kleidung\">www.anodyne.at<\/a> erworben werden. Achten Sie darauf, dass es leider viele minderwertige Fälschungen auf dem Markt gibt. Nur ein einziges haltungskorrigierendes Produkt ist sowohl FDA-registriert und als medizinisches Hilfsmittel MDR\/CE-registriert: Anodyne®. Seien Sie beim online Shoppen also achtsam auf Fälschungen.<\/p>"
           }
         },
         "16595128814be99d47-1": {
@@ -271,7 +298,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Kinesio.png",
             "title": "Von Kinesiotape zu haltungskorrigierender Kleidung",
-            "text": "<p><a href=\"https:\/\/anodyne-at.myshopify.com\/collections\/alle-produkte\" title=\"Alle Produkte\"><span style=\"text-decoration:underline\">Haltungskorrektur-Kleidung<\/span><\/a> aktiviert die Muskulatur im Rücken, den<br\/>Schultern und Schulterblätter, ohne dabei die Muskulatur oder Glieder zu schwächen oder einzuschränken. Die Technologie ist vom Kinesiotape inspiriert - eine häufig von Physiotherapeuten & Chiropraktikern angewendete Behandlungsform, um Schmerzen und Verspannungen in Nacken, Schultern und Rücken zu behandeln. Kinesiotape wird oft von professionellen Athleten verwendet, um spezifische Muskelgruppen zu stimulieren und die Körperhaltung zu verbessern.<\/p>"
+            "text": "<p><a href=\"https:\/\/anodyne-at.myshopify.com\/collections\/alle-produkte\" title=\"Alle Produkte\"><span style=\"text-decoration:underline\">Haltungskorrektur-Kleidung<\/span><\/a> aktiviert die Muskulatur im Rücken, den Schultern und Schulterblätter, ohne dabei die Muskulatur oder Glieder zu schwächen oder einzuschränken. Die Technologie ist vom Kinesiotape inspiriert - eine häufig von Physiotherapeuten & Chiropraktikern angewendete Behandlungsform, um Schmerzen und Verspannungen in Nacken, Schultern und Rücken zu behandeln. Kinesiotape wird oft von professionellen Athleten verwendet, um spezifische Muskelgruppen zu stimulieren und die Körperhaltung zu verbessern.<\/p>"
           }
         }
       },
@@ -372,6 +399,7 @@
   },
   "order": [
     "16565958709e259b85",
+    "26b60e6d-b80c-4cac-9186-bc32afaf5241",
     "1656942069989ae2c9",
     "1654180360d9664fc4",
     "1657200190f72ca1c0",
