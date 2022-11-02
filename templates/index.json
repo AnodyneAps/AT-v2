@@ -2,6 +2,7 @@
   "sections": {
     "16565958709e259b85": {
       "type": "hero-video",
+      "disabled": true,
       "settings": {
         "page_width": "full_width",
         "height": "medium",
@@ -25,7 +26,6 @@
     },
     "26b60e6d-b80c-4cac-9186-bc32afaf5241": {
       "type": "hero-blackdays",
-      "disabled": true,
       "settings": {
         "style__selector": "black",
         "page_width": "full_width",
@@ -34,19 +34,19 @@
         "show_overlay": true,
         "image": "shopify:\/\/shop_images\/Skaermbillede_2021-11-18_kl._14.03.24.png",
         "image_position": "center center",
-        "video_title": "How To Add A Video Background On Shopify",
-        "svg_selector": "blackdays",
+        "video_title": "<span class=\"first\">Anodyne®<\/span>",
+        "svg_selector": "none",
         "text_size": "medium",
-        "text_description": "<p>Brug denne tekst til XXX at dele oplysninger om dit brand med dine.<\/p>",
+        "text_description": "<p>Verbessere jetzt die Haltung und lindere Verspannungen<\/p>",
         "text_description_size": "medium",
-        "button_label": "",
-        "button_link": "",
-        "second_button_label": "",
-        "second_button_link": "",
-        "show_scrolldown": false,
+        "button_label": "Männer",
+        "button_link": "shopify:\/\/collections\/manner",
+        "second_button_label": "Frauen",
+        "second_button_link": "shopify:\/\/collections\/frauen",
+        "show_scrolldown": true,
         "show_emark": false,
-        "bottom_counter_text": "We send your order in",
-        "date__selector": "none",
+        "bottom_counter_text": "Black Days beginnt in:",
+        "date__selector": "2022-11-15 23:59:59",
         "show_bottom_counter": true
       }
     },
