@@ -34,20 +34,19 @@
         "show_overlay": true,
         "image": "shopify:\/\/shop_images\/Skaermbillede_2021-11-18_kl._14.03.24.png",
         "image_position": "center center",
-        "video_title": "<span class=\"first\">Anodyne®<\/span>",
-        "svg_selector": "none",
+        "video_title": "",
+        "svg_selector": "anodyne__vendor",
         "text_size": "medium",
-        "text_description": "<p>Verbessere jetzt die Haltung und lindere Verspannungen<\/p>",
+        "text_description": "<p>Sparen Sie bis zu 50% auf alle Demoprodukte. Nur für begrenzte Zeit...<\/p>",
         "text_description_size": "medium",
-        "button_label": "Männer",
-        "button_link": "shopify:\/\/collections\/manner",
+        "button_label": "Angebote",
+        "button_link": "shopify:\/\/collections\/restposten",
         "second_button_label": "Frauen",
-        "second_button_link": "shopify:\/\/collections\/frauen",
-        "show_scrolldown": true,
+        "second_button_link": "",
+        "show_scrolldown": false,
         "show_emark": false,
         "bottom_counter_text": "Wir verpacken Ihre Bestellung in:",
-        "date__selector": "none",
-        "show_bottom_counter": true
+        "show_bottom_counter": false
       }
     },
     "1656942069989ae2c9": {
@@ -159,16 +158,16 @@
             "title": "Warum haltungskorrigierende Kleidung von Anodyne® wählen?",
             "code": "<p>Mit <a href=\"https:\/\/www.anodyne.at\/\"><span style=\"text-decoration:underline\">haltungskorrigierender Kleidung<\/span><\/a> von Anodyne® können Sie auf einfache und unbeschwerte Weise eine bessere Körperhaltung bekommen, sowie Schmerzen und Verspannungen im Nacken, Schultern und Rücken reduzieren. Anodyne® haltungskorrigierende Kleidung hilft Ihnen Ihr Körperbewusstsein zu verbessern und kann sowohl sitzend im Büro oder aktiver auf der Arbeit, auf Reisen oder zum Training verwendet werden. Anodyne® ist ein europäischer Produzent und Händler von das <a href=\"https:\/\/www.anodyne.at\/collections\/posture-shirt\"><span style=\"text-decoration:underline\">Posture Shirt<\/span><\/a>. Die Technologie wurde entwickelt vom us-amerikanischen Hersteller AlignMed - der einzige Produzent haltungskorrigierender Kleidung, die bei USA´s FDA (Behörde für u.a. Medizinalprodukte), registriert ist. Anodyne® haltungskorrigierende Kleidung ist die einzige Kleidung, die sowohl FDA-registriert und in Europa als medizinisches Hilfsmittel (Klasse 1) MDR\/CE-registriert ist. Dies ist Ihre Garantie dafür, dass Anodyne´s Produkte die Vorschriften für medizinische Hilfsmittel erfüllen. Wir bieten ebenfalls verschiedene <a href=\"https:\/\/www.anodyne.at\/collections\/ruckenstutze\"><span style=\"text-decoration:underline\">Produkte zur Rückenstütze<\/span><\/a>, unter anderem Geradehalter, Lendengurt, ergonomische Sitzkissen und viele weitere. Alle Produkte teilen die Eigenschaften, dass Sie die Körperhaltung verbessern und Schmerzen sowie Verspannungen im Alltag lindern.<\/p>",
             "text_alignment": "text-center",
-            "status1_number": "+100.000",
+            "status1_number": "+300.000",
             "status1_label": "Zufriedene Kunden",
             "status1_link": "shopify:\/\/collections\/alle-produkte",
-            "status2_number": "+500.000",
+            "status2_number": "+600.000",
             "status2_label": "Weltweit verkaufte Produkte",
             "status2_link": "shopify:\/\/collections\/alle-produkte",
             "status3_number": "+8",
             "status3_label": "Jahre Erfahrung",
             "status3_link": "shopify:\/\/collections\/alle-produkte",
-            "status4_number": "+80",
+            "status4_number": "+40",
             "status4_label": "Produkte verfügbar",
             "status4_link": "shopify:\/\/collections\/alle-produkte",
             "vendor_image_position": "center center",
@@ -199,7 +198,7 @@
             "quote": "<p><em>Das Shirt sitzt gut und man merkt die Unterstützung durch das Material.<\/em><\/p>",
             "author": "Angela E.",
             "stars_pic": "shopify:\/\/shop_images\/trustedshops_128x32_d51d08de-43f4-4aac-b82f-36f72e72f599.png",
-            "quotes_link": "https:\/\/www.trustedshops.ch\/bewertung\/info_XE571F261ADE9439296991B18509E2D95.html",
+            "quotes_link": "https:\/\/at.trustpilot.com\/review\/www.anodyne.at?stars=5",
             "text_alignment": "text-center",
             "text_alignment_mobile": "text-center"
           }
@@ -213,7 +212,7 @@
             "quote": "<p><em>Bin in jeglicher Hinsicht zufrieden. Schnelle Lieferung und prima Qualität.<\/em><\/p>",
             "author": "Thomas S.",
             "stars_pic": "shopify:\/\/shop_images\/trustedshops_128x32_d51d08de-43f4-4aac-b82f-36f72e72f599.png",
-            "quotes_link": "https:\/\/www.trustedshops.ch\/bewertung\/info_XE571F261ADE9439296991B18509E2D95.html",
+            "quotes_link": "https:\/\/at.trustpilot.com\/review\/www.anodyne.at?stars=5",
             "text_alignment": "text-center",
             "text_alignment_mobile": "text-center"
           }
@@ -227,7 +226,7 @@
             "quote": "<p><em>Auch bei dieser Bestellung ist alles ganz zu meinen Wünschen verlaufen.<\/em><\/p>",
             "author": "Norbert B.",
             "stars_pic": "shopify:\/\/shop_images\/trustedshops_128x32_d51d08de-43f4-4aac-b82f-36f72e72f599.png",
-            "quotes_link": "https:\/\/www.trustedshops.ch\/bewertung\/info_XE571F261ADE9439296991B18509E2D95.html",
+            "quotes_link": "https:\/\/at.trustpilot.com\/review\/www.anodyne.at?stars=5",
             "text_alignment": "text-center",
             "text_alignment_mobile": "text-center"
           }
