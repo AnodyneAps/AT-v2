@@ -3,7 +3,7 @@
 
 Theme Name: Debutify
 Theme Author: Debutify
-Theme Version: 4.10.0
+Theme Version: 4.10.2
 Theme URI: https://debutify.com
 Theme Documentation: https://help.debutify.com
 Terms of use: https://debutify.com/terms-of-use
@@ -156,7 +156,6 @@ _App_style
   _shopify_digital_downloads
 */
 {% endcomment %}
-
 
 /*============================================================================
   _Font_face
@@ -2748,6 +2747,19 @@ h6 {font-size: $headerSize6}
 .h5 {@extend h5}
 .h6 {@extend h6}
 
+// hide classes
+@media screen and (max-width: 769px) {
+  .hidden-pocket {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .hidden-lap-and-up {
+    display: none !important;
+  }
+}
+
 /*================ _Links ================*/
 a {
   color: $colorBodyText;
@@ -2969,7 +2981,9 @@ textarea {
     display: inline-block !important;
   }
 }
-
+.cart_savings-wrapper-text .money {
+color: $cAccent !important;
+}
 /*================ _Fieldset ================*/
 fieldset {
   margin: 0;
@@ -3459,11 +3473,12 @@ button {
   .list-product & {
     max-width: calc(100% - #{$gutter-sm});
   }
-  &.badge__first{
+  &.badge__first {
     color: lighten($cAccent, 10%);
     font-weight:600;
-    padding:5px 10px;
+    padding:6px 12px;
     background-color: $blackdays;
+    margin-left: 10px;
     .badge__first-text{
       color: $white;
     }
@@ -5924,6 +5939,16 @@ cite {
     z-index: $zindexHeader + 1;
   }
 }
+
+
+.announcement-banner-section {
+  z-index: $zindexHeader + 1;
+
+  .sticky-announcement_bar & {
+    @include sticky;
+    z-index: $zindexHeader + 1;
+  }
+}
   /*bcdays*/
 .announcement__bg {
   background-color: $colorAnnouncement;
@@ -5946,6 +5971,44 @@ cite {
   }
 }
 
+.announcement-banner__bg{
+  padding-top:2px;
+  padding-bottom:2px;
+  background-color: darken($cLightGray, 3%);
+  .announcement-item {
+      span{
+        font-size:1.3rem;
+        color: $cAccent;
+        display: inline-block;
+        margin-right: 5px;    
+    }
+      p{
+        font-size: 0.978rem;
+        margin: 0;
+        letter-spacing: -1px;
+      }
+  }
+    .announcement-message-item {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        span{
+          font-size:1.3rem;
+          color: $cAccent;
+          display: inline-block;
+          margin-top: 1px;
+          margin-right: 5px;    
+      }
+     p{
+        font-size: 0.978rem;
+        margin: 0;
+        letter-spacing: -1px;
+      }
+  }
+  .rte {
+    margin-bottom: 0;
+  }
+}
 .announcement-grid {
   height: $heightInputSmall;
 }
@@ -6125,7 +6188,7 @@ cite {
   @include accentFontStack;
   display: inline-block;
   text-decoration: none;
-  padding: 4px;
+  padding: $gutter-xs;
   white-space: nowrap;
 
   @include screen($small) {
@@ -6383,9 +6446,12 @@ cite {
   }
 }
 .textbox_custom_text {
-  margin:-20px 30px 30px 30px;
+  margin:0 30px 30px 30px;
   padding: $gutter-sm $gutter-xs;
   background-color: lighten($cAccent, 36%);
+  @include screenUp($postSmall){
+    margin:-20px 30px 30px 30px;
+  }
   .small {
     color: $cAccent;
     font-size: 0.85rem;
@@ -7325,6 +7391,10 @@ cite {
   @include display-flexbox();
   @include align-items(center);
   @include justify-content(center);
+  height: 100%;
+  position: absolute;
+  z-index: 22;
+  background: #f7f7f7;
 
   .ajaxcart--is-loaded & {
     display: none;
@@ -7973,6 +8043,7 @@ body {
 .text-small {font-size: $baseFontSize-sm}
 .text-md {font-size: $baseFontSize-md; font-weight: 600 !important}
 .text-large {font-size: $baseFontSize-lg; font-weight: 600 !important}
+.cart-price-text{font-size: $baseFontSize-md; font-weight: 600 !important}
 .text-link {@include linkStyle}
 .text-lead {@include leadFontStack}
 .text-accent {@include accentFontStack}
@@ -8562,18 +8633,20 @@ body {
       background-color: $colorDefault;
     }
   }
+    .cu-flex-direction{
+        width: 100%;
+    .cu-product-select {
+        margin-right: $spacer-sm;
+        @include flex(auto);
+    }
 
-  .cu-product-select {
-    margin-right: $spacer-sm;
-    width: 120px;
-    @include flex(auto);
-  }
+    .cu-product-button {
+        max-width: 82px;
+        font-size:0.8rem;
+        margin-top:6px;
+    }
+}
 
-  .cu-product-button {
-    max-width: 132px;
-    font-size:0.677rem;
-    margin-top:6px;
-  }
 }
 {%- endif -%}
 /* end-dbtfy-cart-upsell */
@@ -10822,7 +10895,7 @@ body:not(.dbtfy-wish_list-destroy) {
   right: 0;
   bottom: 0;
   z-index: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .videoblock .video__overlay.cyber__overlay {
   content: '';
@@ -10832,7 +10905,7 @@ body:not(.dbtfy-wish_list-destroy) {
   right: 0;
   bottom: 0;
   z-index: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .videoblock .hero-fixed-width__content {
   position: absolute;
@@ -11395,31 +11468,42 @@ body:not(.dbtfy-wish_list-destroy) {
               transform: rotateX(0deg);
     }
   }
-/*-----product counter----------*/
-  .product-counter-container{
-    border-radius: 5px;
-    background-color: #f3f3f3;
-    border: 1px solid #f9f9f9;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom:$gutter-sm;
-    gap:10px;
-    p {
-      padding-top:13px;
-      font-weight:600;
-    }
-    .inner{
-      color: $cAccent;
-      font-weight: bold;
-    }
-    #product__counter{
-      display:flex;
-      justify-content: flex-start;
-      align-items: center;
-  
-    }
+.product-counter-container{
+  border-radius: 5px;
+  background-color: #f3f3f3;
+  border: 1px solid #f9f9f9;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:$gutter-sm;
+  gap:10px;
+  p {
+    padding-top:13px;
+    font-weight:600;
   }
+  .inner{
+    color: $cAccent;
+    font-weight: bold;
+  }
+  #product__counter{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+}
+.trustpilot__widget{
+  margin-top: 15px;
+  margin-bottom: 16px;
+  border-radius: 5px;
+  background-color: #f3f3f3;
+  border: 1px solid #f9f9f9;
+  padding: 4px 5px;
+}
+.trustpilot__home .trustpilot__widget.home{
+  background-color: #fff;
+  border: 1px solid #fff;
+}
 .profile {
   .profile__item{
     width: 100%;
@@ -12142,7 +12226,11 @@ body:not(.dbtfy-wish_list-destroy) {
 .qb__quantity{
   position: relative;
   background-color: darken($white, 5%);
-  padding: $gutter-sm $gutter-sm 1px $gutter-sm;
+  margin-top: 20px;
+  padding: 10px 10px 10px 30px;
+  @include screenUp($postSmall){
+  padding: 20px 20px 20px 40px;
+  }
   &::before{
     content: " ";
     position: absolute;
@@ -12161,33 +12249,44 @@ body:not(.dbtfy-wish_list-destroy) {
   }
   .qb__list{
     list-style: none;
+    margin: 0;
     .qb__item{
       position: relative;
+      cursor: pointer;
+      padding:0 5px;
+      border:1px solid transparent;
+      border-radius:3px;
       &::before{
         content:" ";
         position: absolute;
         top: 50%;
         left: 0;
         transform: translateY(-50%);
-        background-color: $cPrimary;
         font-weight: bold;
         display: inline-block; 
-        width: 6px;
-        height: 6px;
+        width: 12px;
+        height: 12px;
         border-radius:50%;
-        box-shadow: 0 0 0 2px lighten($cPrimary, 30%);
-        margin-left: -18px;
+        box-shadow: 0 0 0 1px #fff, 0 0 0 3px #8888;
+        margin-left: -20px;
+      }
+      &.bullet{
+      border:1px solid rgba($cPrimary, 0.2);
+      background-color: white;
+      &::before{
+          background-color: $cPrimary;
+        }
       }
       .qb__flex{
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        padding: 8px 0;
+        padding: 4px 0;
         gap:5px;
-        font-size:0.855rem;
+        font-size:0.815rem;
         @include screenUp($postSmall){
           gap:15px;
-          font-size:1rem;
+          font-size:0.9rem;
           letter-spacing: 0px;
           padding: 1px 0;
         }
@@ -12459,3 +12558,22 @@ body:not(.dbtfy-wish_list-destroy) {
     }
   }
 }
+
+.custom-html-section{
+  h1 {
+  font-size: clamp(1.4rem,5vw,2.6rem) !important;
+  }
+  p a{
+    color: $cPrimary;
+  }
+}
+.yc-different {
+  p {
+    margin: 0;
+    line-height: 1.4;
+  }
+}
+{% comment %} tidio chat replace  {% endcomment %}
+#tidio-chat-iframe {bottom: 50px !important}
+{% comment %} Retun portal overflow-y hidden  {% endcomment %}
+#ifrm body {overflow:hidden !important;}

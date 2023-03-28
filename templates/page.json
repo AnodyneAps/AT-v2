@@ -2,74 +2,10 @@
   "sections": {
     "main": {
       "type": "page",
-      "settings": {
-      }
-    },
-    "57d911d5-90e7-4fad-b74f-dbb2bb1181ca": {
-      "type": "custom-html",
-      "blocks": {
-        "template--15673849643175__57d911d5-90e7-4fad-b74f-dbb2bb1181ca-1666776976bcc9f322-0": {
-          "type": "html",
-          "settings": {
-            "title": "",
-            "code": "<div style=\"margin-bottom:-60px\">\n<h1>Posture Shirt oder Geradehalter?<\/h1>\n<h4>Sind Sie unsicher, ob Sie ein Posture Shirt™ oder Geradehalter wählen sollen? Auf dieser Seite können Sie über Unterschiede und Gemeinsamkeiten zwischen den Produkten lesen. <\/h4>\n<\/div>",
-            "column_width": 12,
-            "column_width_mobile": 12,
-            "text_alignment": "text-center"
-          }
-        }
-      },
-      "block_order": [
-        "template--15673849643175__57d911d5-90e7-4fad-b74f-dbb2bb1181ca-1666776976bcc9f322-0"
-      ],
-      "settings": {
-        "show_on_desktop": true,
-        "show_on_mobile": true,
-        "padding_section": true,
-        "section_style": "section-blank",
-        "wrapper_size": ""
-      }
-    },
-    "aac33000-037a-462a-91ba-4e1a3235c1cd": {
-      "type": "featured-row",
-      "settings": {
-        "show_on_desktop": true,
-        "show_on_mobile": true,
-        "image": "shopify:\/\/shop_images\/Posture_shirt_720x582_b1cbb4e7-75db-42f5-8874-f40989d4c4d1.webp",
-        "image_link": "",
-        "section_style": "section-blank",
-        "text_size": "medium",
-        "image_alignement": "left",
-        "text_alignment": "",
-        "title": "Image with text",
-        "text": "<p>Vælg en Posture Shirt™, hvis du ønsker et produkt med høj komfort, som giver støtte hele dagen.<\/p><p>• Forbedrer kropsholdningen<br\/>• Øger kropsholdningsbevidstheden<br\/>• Aktiverer muskulaturen<br\/>• Giver fri bevægelighed<br\/>• Dokumenteret effekt på lindring af smerter og spændinger<br\/>• Medicinsk registreret (klasse 1)<\/p><p><br\/>Kan bruges <strong>hele dagen<\/strong> (ved gradvis tilvænning):<\/p><p>• Siddende<br\/>• Stående<br\/>• Ved fysisk aktivitet<\/p>",
-        "button_style": "btn--primary",
-        "button_label": "",
-        "button_link": ""
-      }
-    },
-    "28c620e1-2ac6-4b90-99be-04f46055a4b6": {
-      "type": "featured-row",
-      "settings": {
-        "show_on_desktop": true,
-        "show_on_mobile": true,
-        "image_link": "",
-        "section_style": "section-blank",
-        "text_size": "large",
-        "image_alignement": "left",
-        "text_alignment": "text-center",
-        "title": "Image with text",
-        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-        "button_style": "btn--primary",
-        "button_label": "",
-        "button_link": ""
-      }
+      "settings": {}
     }
   },
   "order": [
-    "main",
-    "57d911d5-90e7-4fad-b74f-dbb2bb1181ca",
-    "aac33000-037a-462a-91ba-4e1a3235c1cd",
-    "28c620e1-2ac6-4b90-99be-04f46055a4b6"
+    "main"
   ]
 }

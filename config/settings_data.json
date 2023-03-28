@@ -625,18 +625,6 @@
           "dbtfy_bullet_points_display_type": "inline"
         }
       },
-      "dbtfy-sales-countdown": {
-        "type": "dbtfy-sales-countdown",
-        "settings": {
-          "dbtfy_sales_countdown_icons": "local_fire_department",
-          "dbtfy_sales_countdown_prefix": "Sale ends in",
-          "dbtfy_sales_countdown_suffix": "",
-          "dbtfy_sales_countdown_d": "d",
-          "dbtfy_sales_countdown_h": "h",
-          "dbtfy_sales_countdown_m": "m",
-          "dbtfy_sales_countdown_s": "s"
-        }
-      },
       "dbtfy-delivery-time": {
         "type": "dbtfy-delivery-time",
         "settings": {
@@ -669,6 +657,7 @@
         "blocks": {
           "c4676b39-a890-441a-b56f-27f60a8d0ad9": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "title": "",
               "announcement_text": "<p>30 Tage Rückgaberecht<\/p>"
@@ -676,6 +665,7 @@
           },
           "82893cc1-5e92-46bd-a94d-7204271ffa01": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "title": "",
               "announcement_text": "<p>Gratis Versand für Einkaufe über 59 €<\/p>"
@@ -683,6 +673,7 @@
           },
           "announcement-0": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "title": "",
               "announcement_text": "<p>Kostenloser Umtausch<\/p>"
@@ -714,7 +705,7 @@
         ],
         "settings": {
           "style__selector": "none",
-          "show_announcement": true,
+          "show_announcement": false,
           "small_announcement_text": false,
           "show_social": false,
           "email": false,
@@ -862,7 +853,7 @@
               "logo_width": 150,
               "heading_text": "Kontakt",
               "subtitle": "",
-              "text": "<p>Anodyne.at<\/p><p><strong>Mon - Don<\/strong>: 10:00 - 16:00<br\/><strong>Freitag:<\/strong> 10:00 - 15:00<\/p>",
+              "text": "<p>Anodyne.at<\/p><p><strong>Mon - Don<\/strong>: 10:00 - 15:00<br\/><strong>Freitag:<\/strong> 10:00 - 14:00<\/p>",
               "email": true,
               "phone": true,
               "show_social_media": false
@@ -1198,6 +1189,66 @@
         "type": "dbtfy-product-swatches",
         "settings": {
           "dbtfy_product_swatches_show_in_grid": true
+        }
+      },
+      "dbtfy-account-settings": {
+        "type": "dbtfy-account-settings",
+        "settings": {
+        }
+      },
+      "announcement_banner": {
+        "type": "announcement_banner",
+        "blocks": {
+          "announcement_banner-0": {
+            "type": "message",
+            "settings": {
+              "title": "",
+              "icon_select": "local_shipping",
+              "announcement_text": "<p>Gratis Versand für Einkaufe über 59 €<\/p>"
+            }
+          },
+          "8b98c4a1-8642-4e67-ad5b-f0d40c7793a8": {
+            "type": "message",
+            "settings": {
+              "title": "",
+              "icon_select": "assignment_return",
+              "announcement_text": "<p>30 Tage Rückgaberecht<\/p>"
+            }
+          },
+          "eff1a30f-18c0-495a-88ab-243c7135a4c8": {
+            "type": "message",
+            "settings": {
+              "title": "",
+              "icon_select": "sentiment_very_satisfied",
+              "announcement_text": "<p>Kostenloser Umtausch<\/p>"
+            }
+          },
+          "d9e115a8-0e9f-4937-af64-1a990b558b82": {
+            "type": "message",
+            "settings": {
+              "title": "",
+              "icon_select": "thumb_up",
+              "announcement_text": "<p>+300.000 Zufriedene Kunden<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "announcement_banner-0",
+          "8b98c4a1-8642-4e67-ad5b-f0d40c7793a8",
+          "eff1a30f-18c0-495a-88ab-243c7135a4c8",
+          "d9e115a8-0e9f-4937-af64-1a990b558b82"
+        ],
+        "settings": {
+          "show_announcement": true,
+          "icon_select-first": "local_shipping",
+          "message-first": "Gratis Versand für Einkaufe über 59 €",
+          "icon_select-second": "assignment_return",
+          "message-second": "30 Tage Rückgaberecht",
+          "icon_select-third": "sentiment_very_satisfied",
+          "message-third": "Kostenloser Umtausch",
+          "icon_select-fourth": "thumb_up",
+          "message-fourth": "+300.000 Zufriedene Kunden",
+          "announcement_autoplayspeed": 5
         }
       }
     },
